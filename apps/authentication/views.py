@@ -509,7 +509,7 @@ class UserProfileViewSet(viewsets.ModelViewSet):
                 email_type="confirmation",
                 subject="Account Deleted",
                 action="Account Deletion",
-                message="Your account has been successfully deleted from Shop.co. We're sorry to see you go!"
+                message="Your account has been successfully deleted from KidsDesignCompany. We're sorry to see you go!"
             )
         else:
             send_generic_email_task.apply_async(
@@ -518,7 +518,7 @@ class UserProfileViewSet(viewsets.ModelViewSet):
                     'email_type': "confirmation",
                     'subject': "Account Deleted",
                     'action': "Account Deletion",
-                    'message': "Your account has been successfully deleted from Shop.co. We're sorry to see you go!"
+                    'message': "Your account has been successfully deleted from KidsDesignCompany. We're sorry to see you go!"
                 }
             )
 
@@ -805,7 +805,7 @@ class UserSignupViewSet(viewsets.ModelViewSet):
                 email_type="confirmation",
                 subject="Signup Successful",
                 action="Signup",
-                message="You have finished the signup verification for Shop.co. Welcome!"
+                message="You have finished the signup verification for KidsDesignCompany. Welcome!"
             )
         else:
             send_generic_email_task.apply_async(
@@ -814,7 +814,7 @@ class UserSignupViewSet(viewsets.ModelViewSet):
                     'email_type': "confirmation",
                     'subject': "Signup Successful",
                     'action': "Signup",
-                    'message': "You have finished the signup verification for Shop.co. Welcome!"
+                    'message': "You have finished the signup verification for KidsDesignCompany. Welcome!"
                 }
             )
 
@@ -904,7 +904,7 @@ class UserLoginViewSet(viewsets.ModelViewSet):
                 email_type="confirmation",
                 subject="Login Successful",
                 action="Login",
-                message="You have successfully logged in to Shop.co. Welcome!"
+                message="You have successfully logged in to KidsDesignCompany. Welcome!"
             )
         else:
             send_generic_email_task.apply_async(
@@ -913,7 +913,7 @@ class UserLoginViewSet(viewsets.ModelViewSet):
                     'email_type': "confirmation",
                     'subject': "Login Successful",
                     'action': "Login",
-                    'message': "You have successfully logged in to Shop.co. Welcome!"
+                    'message': "You have successfully logged in to KidsDesignCompany. Welcome!"
                 }
             )
 
@@ -1012,7 +1012,7 @@ class GoogleAuthViewSet(viewsets.ModelViewSet):
                             email_type="confirmation",
                             subject="Login Successful",
                             action="Google Login",
-                            message="You have successfully logged in to Shop.co using Google. Welcome!"
+                            message="You have successfully logged in to KidsDesignCompany using Google. Welcome!"
                         )
                     else:
                         send_generic_email_task.apply_async(
@@ -1021,7 +1021,7 @@ class GoogleAuthViewSet(viewsets.ModelViewSet):
                                 'email_type': "confirmation",
                                 'subject': "Login Successful",
                                 'action': "Google Login",
-                                'message': "You have successfully logged in to Shop.co using Google. Welcome!"
+                                'message': "You have successfully logged in to KidsDesignCompany using Google. Welcome!"
                             }
                         )
 
@@ -1125,7 +1125,7 @@ class GoogleAuthViewSet(viewsets.ModelViewSet):
                     email_type="confirmation",
                     subject="Account Setup Successful",
                     action="Google Account Setup",
-                    message="You have successfully set up your Shop.co account using Google and a password. You can now log in with your email and password or Google. Welcome!"
+                    message="You have successfully set up your KidsDesignCompany account using Google and a password. You can now log in with your email and password or Google. Welcome!"
                 )
             else:
                 send_generic_email_task.apply_async(
@@ -1134,7 +1134,7 @@ class GoogleAuthViewSet(viewsets.ModelViewSet):
                         'email_type': "confirmation",
                         'subject': "Account Setup Successful",
                         'action': "Google Account Setup",
-                        'message': "You have successfully set up your Shop.co account using Google and a password. You can now log in with your email and password or Google. Welcome!"
+                        'message': "You have successfully set up your KidsDesignCompany account using Google and a password. You can now log in with your email and password or Google. Welcome!"
                     }
                 )
 

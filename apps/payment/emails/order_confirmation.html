@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Order Confirmation -{% if brand_name %} {{ brand_name }} {% else %} Shop.co {% endif %}</title>
+    <title>Order Confirmation -{% if brand_name %} {{ brand_name }} {% else %} KidsDesignCompany {% endif %}</title>
     <style>
         body {
             margin: 0;
@@ -247,9 +247,9 @@
             <!-- Header -->
             <tr>
                 <td class="header">
-                    <img src="https://tse4.mm.bing.net/th/id/OIP.rcKRRDLHGEu5lWcn6vbKcAHaHa?rs=1&pid=ImgDetMain" alt="{% if brand_name %} {{ brand_name }} {% else %} Shop.co {% endif %} Logo">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.rcKRRDLHGEu5lWcn6vbKcAHaHa?rs=1&pid=ImgDetMain" alt="{% if brand_name %} {{ brand_name }} {% else %} KidsDesignCompany {% endif %} Logo">
                     <h1>Order Confirmation</h1>
-                    <p>Your {% if brand_name %} {{ brand_name }} {% else %} Shop.co {% endif %} Account</p>
+                    <p>Your {% if brand_name %} {{ brand_name }} {% else %} KidsDesignCompany {% endif %} Account</p>
                 </td>
             </tr>
 
@@ -257,7 +257,7 @@
             <tr>
                 <td class="content">
                     <h2>Dear {{ first_name|escape }},</h2>
-                    <p>Thank you for shopping with <a href="{{ site_url }}" style="color: #008080; text-decoration: none;">{% if brand_name %} {{ brand_name }} {% else %} Shop.co {% endif %}</a>! We are delighted to confirm that your order (#{{ order_id|escape }}) has been successfully placed. Below are the key details of your purchase.</p>
+                    <p>Thank you for shopping with <a href="{{ site_url }}" style="color: #008080; text-decoration: none;">{% if brand_name %} {{ brand_name }} {% else %} KidsDesignCompany {% endif %}</a>! We are delighted to confirm that your order (#{{ order_id|escape }}) has been successfully placed. Below are the key details of your purchase.</p>
 
                     <!-- Order Highlights -->
                     <table class="order-highlights">
@@ -306,7 +306,7 @@
             <tr>
                 <td class="footer">
                     <p>Best regards,<br>
-                      <a href="{{ site_url }}">The {% if brand_name %} {{ brand_name }} {% else %} Shop.co {% endif %} Team</a>
+                      <a href="{{ site_url }}">The {% if brand_name %} {{ brand_name }} {% else %} KidsDesignCompany {% endif %} Team</a>
                     </p>
                     {% if social_true %}
                       <p>Connect with us:</p>
@@ -331,7 +331,7 @@
                       </table>
                     {% endif %}
                     <p>
-                      {{ current_year|escape }} {% if brand_name %} {{ brand_name }} {% else %} Shop.co {% endif %} All rights reserved.
+                      {{ current_year|escape }} {% if brand_name %} {{ brand_name }} {% else %} KidsDesignCompany {% endif %} All rights reserved.
                     </p>
                     <p>
                       <a href="{{ site_url }}/privacy">Privacy Policy</a>

@@ -1,6 +1,6 @@
 Dear {{ first_name }},
 
-We’re sorry to inform you that the items you intended to purchase from {% if brand_name %} {{brand_name}} {% else %} Shop.co {% endif %} are currently out of stock, as another customer completed their payment first.
+We’re sorry to inform you that the items you intended to purchase from {% if brand_name %} {{brand_name}} {% else %} KidsDesignCompany {% endif %} are currently out of stock, as another customer completed their payment first.
 
 We have successfully initiated a refund for your transaction. You should receive the full amount of {{ currency }} {{ amount }} from {{ provider }} within 14 days.
 
@@ -48,5 +48,5 @@ The {{brand_name}}Team
   {% endif %}
 {% endif %}
 
-{{ current_year }} {% if brand_name %} {{brand_name}} {% else %} Shop.co {% endif %} All rights reserved.
+{{ current_year }} {% if brand_name %} {{brand_name}} {% else %} KidsDesignCompany {% endif %} All rights reserved.
 Privacy Policy: {{ site_url }}/privacy | Terms of Service: {{terms_of_service}}

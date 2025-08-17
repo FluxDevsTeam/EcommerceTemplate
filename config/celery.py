@@ -12,7 +12,7 @@ django_env = os.getenv("DJANGO_ENV", "development").lower()
 settings_module = f"config.settings.{django_env}"
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", settings_module)
 # Create Celery app instance
-app = Celery('EcommerceTemplate')  # Keep your project name
+app = Celery('KidsDesignCompany')  # Keep your project name
 
 # Load Celery config from Django settings with 'CELERY_' prefix
 app.config_from_object('django.conf:settings', namespace='CELERY')

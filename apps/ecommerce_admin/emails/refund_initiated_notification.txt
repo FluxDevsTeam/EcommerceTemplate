@@ -49,5 +49,5 @@ The {{brand_name}}Team
   {% endif %}
 {% endif %}
 
-{{ current_year }} {% if brand_name %} {{brand_name}} {% else %} Shop.co {% endif %} All rights reserved.
+{{ current_year }} {% if brand_name %} {{brand_name}} {% else %} KidsDesignCompany {% endif %} All rights reserved.
 Privacy Policy: {{ site_url }}/privacy | Terms of Service: {{terms_of_service}}

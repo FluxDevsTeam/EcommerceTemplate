@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Refund Initiated - {% if brand_name %} {{brand_name}} {% else %} Shop.co {% endif %}</title>
+    <title>Refund Initiated - {% if brand_name %} {{brand_name}} {% else %} KidsDesignCompany {% endif %}</title>
     <style>
         body {
             margin: 0;
@@ -254,9 +254,9 @@
             <!-- Header -->
             <tr>
                 <td class="header">
-                    <img src="https://tse4.mm.bing.net/th/id/OIP.rcKRRDLHGEu5lWcn6vbKcAHaHa?rs=1&pid=ImgDetMain" alt="Shop.co Logo" class="logo">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.rcKRRDLHGEu5lWcn6vbKcAHaHa?rs=1&pid=ImgDetMain" alt="KidsDesignCompany Logo" class="logo">
                     <h1>Refund Initiated</h1>
-                    <p>Your {% if brand_name %} {{brand_name}} {% else %} Shop.co {% endif %} Account</p>
+                    <p>Your {% if brand_name %} {{brand_name}} {% else %} KidsDesignCompany {% endif %} Account</p>
                 </td>
             </tr>
 
@@ -264,7 +264,7 @@
             <tr>
                 <td class="content">
                     <h2>Dear {{ first_name|escape }},</h2>
-                    <p>We’re sorry to inform you that the items you intended to purchase from <a href="{{ site_url }}" style="color: #008080;">{% if brand_name %} {{brand_name}} {% else %} Shop.co {% endif %}</a> are currently out of stock, as another customer completed their payment first.</p>
+                    <p>We’re sorry to inform you that the items you intended to purchase from <a href="{{ site_url }}" style="color: #008080;">{% if brand_name %} {{brand_name}} {% else %} KidsDesignCompany {% endif %}</a> are currently out of stock, as another customer completed their payment first.</p>
                     <p>We have successfully initiated a refund for your transaction. You should receive the full amount of {{ currency|escape }} {{ amount|escape }} from {{ provider|escape }} within <strong>14 days</strong>.</p>
 
                     <!-- Refund Details -->
@@ -316,7 +316,7 @@
             <tr>
                 <td class="footer">
                   <p>Best regards,<br>
-                    <a href="{{ site_url }}">The {% if brand_name %} {{ brand_name }} {% else %} Shop.co {% endif %} Team</a>
+                    <a href="{{ site_url }}">The {% if brand_name %} {{ brand_name }} {% else %} KidsDesignCompany {% endif %} Team</a>
                   </p>
                   {% if social_true %}
                     <p>Connect with us:</p>
@@ -341,7 +341,7 @@
                     </table>
                   {% endif %}
                   <p>
-                    {{ current_year|escape }} {% if brand_name %} {{ brand_name }} {% else %} Shop.co {% endif %} All rights reserved.
+                    {{ current_year|escape }} {% if brand_name %} {{ brand_name }} {% else %} KidsDesignCompany {% endif %} All rights reserved.
                   </p>
                   <p>
                     <a href="{{ site_url }}/privacy">Privacy Policy</a>

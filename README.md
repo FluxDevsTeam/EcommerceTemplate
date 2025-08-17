@@ -143,7 +143,7 @@ The project uses environment-specific settings:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd EcommerceTemplate
+   cd KidsDesignEcommerceTemplateBackend
    ```
 
 2. Create a virtual environment:

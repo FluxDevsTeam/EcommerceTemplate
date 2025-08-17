@@ -156,10 +156,10 @@ SWAGGER_SETTINGS = {
     }
 }
 JAZZMIN_SETTINGS = {
-    "site_title": "Shop.co",
-    "site_header": "Shop.co API Template",
+    "site_title": "KidsDesignCompany",
+    "site_header": "KidsDesignCompany API Template",
     "site_brand": "",
-    "site_copyright": "Shop.co",
+    "site_copyright": "KidsDesignCompany",
     "show_ui_builder": True
 }
 
